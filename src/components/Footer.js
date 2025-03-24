@@ -8,7 +8,7 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-bold mb-3">THÔNG TIN LIÊN HỆ</h3>
           <p className="font-semibold text-orange-400">Hoàng Thông TELECOM</p>
-          <p>Hotline: <span className="text-orange-300">0315591934</span></p>
+          <p>Hotline: <span className="text-orange-300">0979 193 037  </span></p>
           <p>📍 Trụ Sở: 1073 Huỹnh Văn Lũy, Thủ Dầu Một, Bình Dương</p>
         </div>
 

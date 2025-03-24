@@ -15,8 +15,8 @@ export default function Contact() {
           Hoàng Thông Telecom
         </h3>
         <p className="flex items-center mt-2"><FaMapMarkerAlt className="text-blue-500 mr-2" /> 1073 Huỳnh Văn Lũy, Thủ Dầu Một, Bình Dương</p>
-        <p className="flex items-center"><FaPhone className="text-red-500 mr-2" /> <span className="text-red-600 font-bold">0978.243.734</span></p>
-        <p className="flex items-center"><FaEnvelope className="text-blue-500 mr-2" /> <a href="mailto:cameratinnghia@gmail.com" className="text-blue-500">hoangthong@gmail.com</a></p>
+        <p className="flex items-center"><FaPhone className="text-red-500 mr-2" /> <span className="text-red-600 font-bold">0979 193 037</span></p>
+        <p className="flex items-center"><FaEnvelope className="text-blue-500 mr-2" /> <a href="mailto:cameratinnghia@gmail.com" className="text-blue-500">minhhoang2188@gmail.com</a></p>
       </div>
       
       {/* Form liên hệ */}

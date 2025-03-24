@@ -3,10 +3,10 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
-const categories = ["Tất cả", "Router", "Switch", "Camera", "Dây cáp"];
-const PRODUCTS_PER_PAGE = 4;
+const categories = ["Tất cả"];
+const PRODUCTS_PER_PAGE = 8;
 
-const ProductByCategory = () => {
+const Product = () => {
   const BASE_IMAGE_URL = "http://localhost/HOANGTHONGSTORE/server/upload/";
   const router = useRouter();
 
@@ -67,7 +67,7 @@ const ProductByCategory = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto p-4">
+    <div className="max-w-6xl mx-auto p-4 mt-30">
       {/* Tabs danh mục */}
       <div className="flex flex-wrap justify-center space-x-2 border-b pb-2">
         {categories.map((category) => (
@@ -151,4 +151,4 @@ const ProductByCategory = () => {
   );
 };
 
-export default ProductByCategory;
+export default Product;
